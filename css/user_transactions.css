@@ -1,0 +1,161 @@
+.list-group-item {
+  transition: all 0.25s ease-in-out;
+  border-radius: 12px;
+  margin-bottom: 6px;
+  padding: 14px 18px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.list-group-item img {
+  border-radius: 8px;
+}
+
+.list-group-item:hover {
+  background: #f4faf8;
+  border-color: #00b894;
+  transform: translateY(-2px);
+}
+
+.nominal-wrapper {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nominal-label {
+  font-weight: 600;
+  font-size: 16px;
+  color: #222;
+}
+
+.nominal-box {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #f8f9fa;
+  padding: 14px 22px;
+  border-radius: 16px;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.nominal-input {
+  width: 160px;
+  padding: 10px 15px;
+  font-size: 22px;
+  font-weight: 700;
+  border: none;
+  background: transparent;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.nominal-input:focus {
+  outline: none;
+}
+
+.step-btn {
+  width: 42px;
+  height: 42px;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 50%;
+  background: #00b894;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.step-btn:hover {
+  background: #009f7a;
+}
+
+.step-btn:active {
+  transform: scale(0.9);
+}
+
+#selectedMethod {
+  background: #f8f9fa;
+  border-radius: 14px;
+  padding: 18px;
+  border: 1px solid rgba(0,0,0,0.08);
+  box-shadow: inset 0 0 8px rgba(0,0,0,0.05);
+}
+
+#selectedLogo {
+  filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.15));
+}
+
+.modal-content {
+  border-radius: 18px !important;
+}
+
+.modal-header {
+  border-radius: 18px 18px 0 0 !important;
+  padding: 18px 22px;
+}
+
+.btn-primary {
+  background: #009272 !important;
+  border-color: #009272 !important;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.btn-primary:hover {
+  background: #00785f !important;
+}
+
+.btn-success {
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.btn-outline-secondary {
+  border-radius: 8px !important;
+}
+
+#step-detail h5 {
+  font-weight: 700;
+}
+
+#detailNumber {
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+#step-qris img {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.payment-box {
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    border: 1px solid #d0e5d8;
+    border-radius: 10px;
+    background: #f8fffa;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.pay-logo {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    margin-right: 12px;
+}
+
+.pay-name {
+    font-weight: 600;
+    color: #2a6b4f;
+    font-size: 1rem;
+}
+
+
